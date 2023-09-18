@@ -1,0 +1,67 @@
+{
+    "/auth/*": {
+        "target": "http://95.111.243.150:10080",
+        "secure": false,
+        "logLevel": "debug"
+    },
+    "/core/*": {
+        "target": "https://crm.newqaadmserver01.i2icore.com:8443",
+        "secure": false,
+        "logLevel": "debug"
+    },
+    "/license/*": {
+        "target": "https://demo.ismpadm.i2icore.com",
+        "secure": false,
+        "logLevel": "debug"
+    },
+    "/device/*": {
+        "target": "https://crm.newqaadmserver01.i2icore.com:8443",
+        "secure": false,
+        "logLevel": "debug"
+    },
+    "/inaaa/*": {
+        "target": "https://crm.newqaadmserver01.i2icore.com:8443",
+        "secure": false,
+        "logLevel": "debug"
+    },
+    "/hotspot/*": {
+        "target": "https://demo.ismpadm.i2icore.com",
+        "secure": false,
+        "logLevel": "debug"
+    },
+    "/iacs/*": {
+        "target": "https://demo.ismpadm.i2icore.com",
+        "secure": false,
+        "logLevel": "debug"
+    },
+    "/cbss/*": {
+        "target": "https://crm.newqaadmserver01.i2icore.com:8443",
+        "secure": false,
+        "logLevel": "debug"
+    },
+    "/ihp/*": {
+        "target": "https://demo.ismpadm.i2icore.com",
+        "secure": false,
+        "logLevel": "debug"
+    },
+    "/inagent/*": {
+        "target": "http://localhost:8091",
+        "secure": false,
+        "logLevel": "debug"
+    },
+    "/iwfm/*": {
+        "target": "http://localhost:8091",
+        "secure": false,
+        "logLevel": "debug"
+    },
+    "/iplog/*": {
+        "target": "https://demo.ismpadm.i2icore.com",
+        "secure": false,
+        "logLevel": "debug"
+    },
+    "/cdr/*": {
+        "target": "https://demo.ismpadm.i2icore.com",
+        "secure": false,
+        "logLevel": "debug"
+    }
+}
